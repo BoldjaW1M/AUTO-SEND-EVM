@@ -14,6 +14,7 @@ Script ini otomatis mengirim token native pada jaringan EVM. Private key diambil
    ```sh
    git clone https://github.com/yourusername/auto-send-evm.git
    cd auto-send-evm
+```
 
 ```sh
 pip install -r requirements.txt
