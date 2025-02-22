@@ -1,18 +1,31 @@
-Auto Send EVM
-Deskripsi
+# Auto Send EVM
+
+## Deskripsi
 Script ini otomatis mengirim token native pada jaringan EVM. Private key diambil dari pvkeys.txt, sedangkan alamat tujuan dari address.txt. Gas fee dihitung otomatis, dan transaksi akan diulang jika gagal.
 
-Isi pvkeys.txt dengan private key (satu per baris).
-Isi address.txt dengan alamat tujuan (satu per baris).
 
-Cara Install
+## Requirements
+- Python 3
+- `web3.py`
+- `colorama`
+- `pyfiglet`
 
-pip install -r requirements.txt  
+## Installation
+```sh
+pip install -r requirements.txt
+```
+```sh
+pip install pyfiglet
+```
 
+## Usage
+   ```sh
+   python bot.py
+   ```
+4. Enter the RPC URL, number of transactions per wallet, and amount to send.
+5. The script will process transactions automatically.
 
-Jalankan script:
+## Notes
+- Pastikan dompet Anda memiliki saldo yang cukup
+- Gunakan penyedia RPC yang andal untuk transaksi yang stabil
 
-python bot.py  
-
-Masukkan RPC URL, jumlah transaksi per wallet, dan jumlah token yang dikirim.
-Transaksi berjalan otomatis.
