@@ -12,7 +12,7 @@ Script ini otomatis mengirim token native pada jaringan EVM. Private key diambil
 
 ## Installation
    ```sh
-   git clone https://github.com/yourusername/auto-send-evm.git
+   git clone https://github.com/Odienurman/auto-send-evm.git
    cd auto-send-evm
 ```
 
