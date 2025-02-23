@@ -22,6 +22,9 @@ pip install -r requirements.txt
 ```sh
 pip install pyfiglet
 ```
+```sh
+pip install web3==6.20.1
+```
 
 ## Usage
    ```sh
