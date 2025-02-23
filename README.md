@@ -19,13 +19,16 @@ Script ini otomatis mengirim token native pada jaringan EVM. Private key diambil
 ```sh
 pip install -r requirements.txt
 ```
+or
 ```sh
 pip install pyfiglet
 ```
 ```sh
 pip install web3==6.20.1
 ```
-
+```sh
+pip install colorama
+```
 ## Usage
    ```sh
    python bot.py
