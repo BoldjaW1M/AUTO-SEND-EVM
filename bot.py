@@ -55,7 +55,7 @@ def TransferNative(sender, senderkey, recipient, amount, web3, retries=3):
             fixamount = '%.18f' % float(amount)
             sign_txn = web3.eth.account.sign_transaction(auto_tx, senderkey)
             print(Fore.BLUE + f'Processing Send {fixamount} Native To: {recipient} ...')
-            tx_hash = web3.eth.send_raw_transaction(sign_txn.rawTransaction)
+            tx_hash = web3.eth.send_raw_transaction(sign_txn.raw_transaction)
 
             txid = str(web3.to_hex(tx_hash))
             transaction_receipt = web3.eth.wait_for_transaction_receipt(tx_hash)
