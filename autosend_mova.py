@@ -80,7 +80,7 @@ def guess_eip1559_fees(w3: Web3) -> Tuple[int, int]:
 
 def ask_recipient_and_maybe_set_rpc() -> str:
     global RPC_URL
-    first = input("input RPC URL (jika salah): ").strip()
+    first = input("input RPC URL : ").strip()
     if first.lower().startswith(("http://", "https://")):
         RPC_URL = first
         print(f"[i] RPC_URL di-set ke: {RPC_URL}")
